@@ -1,0 +1,21 @@
+img{
+    height: 300px;
+    width: 300px;
+}
+body{
+    text-align:center;
+  }  
+  
+  #firstp{
+    word-spacing: 10px;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 80px;
+  }
+  
+  #reasontext{
+    font-size:50px;
+  }
+  
+  
+  

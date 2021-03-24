@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>FAMILY BOOK</title>
+</head>
+<body>
+  <center>
+  <p id="firstp">FAMILY BOOK</p>
+  
+<img id="album" src="https://en.pimg.jp/045/836/875/1/45836875.jpg">
+<h3 id="name">my family</h3>
+ <div>
+        <button type="button" onclick="nextslide()"> next </button>
+ </div></center>
+ <script>
+   var images = [
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2QxDDMxt_44rOuXJnpF3VgFV7zEZtrIdOxQ&usqp=CAU",
+  "https://www.pngjoy.com/pngm/35/818836_cartoon-mother-and-baby-cartoon-png-transparent-png.png",
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6VcjW4SWTkzYiWKA7HPldPa104XInTAH0_w&usqp=CAU"
+];
+
+
+var i = 0;
+function nextslide() {
+  if(i==4)
+    {i=0;}
+  document.getElementById("album").src=
+    images[i];
+  i++;
+}
+
+
+ 
+ </script>
+</body>
+</html>
